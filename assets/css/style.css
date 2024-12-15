@@ -1,0 +1,39 @@
+body {
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.board {
+    width: auto;
+    height: 2065px;
+    background-color: yellow;
+    margin: 15px;
+}
+
+.cell {
+    color: green;
+    font-weight: 900;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    display: flex;
+}
+
+.col {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.row {
+    display: flexbox;
+    flex-direction: row;
+}
