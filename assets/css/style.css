@@ -12,30 +12,25 @@ p {
     font-size: 25px;
 }
 
-.board {
-    width: auto;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 930;
     height: 2065px;
     background-color: yellow;
     margin: 15px;
-    border: 5px solid  black;
-    display: flex;
+    border: 5px solid red;
 }
 
 .cell {
     display: flex;
+    flex-direction: row;
     color: green;
+    background-color: white;
     font-weight: 900;
     width: 100px;
     height: 100px;
     border: 2px solid green;
 }
 
-.col {
-    display: flexbox;
-    flex-direction: column;
-}
-
-.row {
-    display: flexbox;
-    flex-direction: row;
-}
