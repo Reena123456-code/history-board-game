@@ -22,12 +22,12 @@ p {
 }
 
 .cell {
+    display: flex;
     color: green;
     font-weight: 900;
     width: 100px;
     height: 100px;
     border: 2px solid green;
-    display: flex;
 }
 
 .col {
